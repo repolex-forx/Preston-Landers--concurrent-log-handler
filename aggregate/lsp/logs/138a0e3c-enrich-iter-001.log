@@ -1,0 +1,14 @@
+[2026-09-16T23:58:52Z] === ENRICH ITERATION 1 START | repo=Preston-Landers/concurrent-log-handler sha=138a0e3c ===
+[2026-09-16T23:58:52Z] [iter=1] PHASE START: enrich repo=Preston-Landers/concurrent-log-handler sha=138a0e3c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/138a0e3c-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/138a0e3c459a8f47aa40566afc9e084bbb9313c4.nq.gz
+[2026-09-16T23:59:00Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-16T23:59:02Z] [iter=1] AST store loaded triples=125329 load_secs=2 mem_mb=284 MB
+[2026-09-16T23:59:02Z] [iter=1] Step 2: Finding LSP targets mem_mb=284 MB
+[2026-09-16T23:59:02Z] [iter=1] LSP targets found call_sites=925 imports=0 extends=0 implements=0 secs=0
+[2026-09-16T23:59:02Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=284 MB
+[2026-09-16T23:59:03Z] [iter=1] Position index built positions=8590 nodes_with_types=10965 secs=0 mem_mb=284 MB
+[2026-09-16T23:59:03Z] [iter=1] Step 3: Starting LSP resolution mem_mb=284 MB already_completed_types=[] already_completed_files=0
+[2026-09-16T23:59:03Z] [iter=1] Resolving target type target_type=call_site count=925
+[2026-09-16T23:59:20Z] [iter=1] Target type resolved target_type=call_site resolved=591 errors=203 secs=17 mem_mb=284 MB
+[2026-09-16T23:59:21Z] [iter=1] Step 5: Writing final enrichment file triples=8369
+[2026-09-16T23:59:21Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/138a0e3c459a8f47aa40566afc9e084bbb9313c4.nq.gz size_kb=141
+[2026-09-16T23:59:21Z] [iter=1] PHASE END: enrich elapsed_s=30 elapsed_min=0.5 total_triples=8369
