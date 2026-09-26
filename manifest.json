@@ -191,6 +191,118 @@
       ],
       "ast": [
         "aggregate/ast/71290c50494396381029cacec79f080dcf9fb8ec/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/71290c50494396381029cacec79f080dcf9fb8ec.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "portalocker",
+          "ecosystem": "PYPI",
+          "version": "1.6.0",
+          "githubOrg": "wolph",
+          "githubRepo": "portalocker",
+          "githubCommit": "af69ab5be19df8e2a34c552c6154efc9a31a880d",
+          "githubTag": "v1.6.0",
+          "githubUrl": "https://github.com/wolph/portalocker",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "hatch",
+          "ecosystem": "PYPI",
+          "version": "1.18.1",
+          "githubOrg": "sponsors",
+          "githubRepo": "ofek",
+          "githubUrl": "https://github.com/sponsors/ofek",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "9.1.1",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "cf470ec0bf7eb89cd97dd56df4859eae5db46447",
+          "githubTag": "9.1.1",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "coverage",
+          "ecosystem": "PYPI",
+          "version": "7.16.1",
+          "githubOrg": "coveragepy",
+          "githubRepo": "coveragepy",
+          "githubCommit": "ccbb99245dcb4e51a35087285499cdb22b164ccc",
+          "githubTag": "7.16.1",
+          "githubUrl": "https://github.com/coveragepy/coveragepy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-mock",
+          "ecosystem": "PYPI",
+          "version": "3.15.1",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-mock",
+          "githubCommit": "e1b5c62a38c5a05cae614aef3847f240ba50d269",
+          "githubTag": "v3.15.1",
+          "githubUrl": "https://github.com/pytest-dev/pytest-mock",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-sugar",
+          "ecosystem": "PYPI",
+          "version": "1.1.1",
+          "githubOrg": "Teemu",
+          "githubRepo": "pytest-sugar",
+          "githubCommit": "81335030b95741d90ae489f9216759c009854fa9",
+          "githubTag": "v1.1.1",
+          "githubUrl": "https://github.com/Teemu/pytest-sugar",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-cov",
+          "ecosystem": "PYPI",
+          "version": "7.1.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-cov",
+          "githubCommit": "66c8a526b1246b5eb8fb1bc218878131bc628622",
+          "githubTag": "v7.1.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-cov",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "black",
+          "ecosystem": "PYPI",
+          "version": "26.5.1",
+          "githubOrg": "psf",
+          "githubRepo": "black",
+          "githubCommit": "87928e6d6761a4a6d22250e1fee5601b3998086e",
+          "githubTag": "26.5.1",
+          "githubUrl": "https://github.com/psf/black",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "ruff",
+          "ecosystem": "PYPI",
+          "version": "0.16.9",
+          "githubOrg": "astral-sh",
+          "githubRepo": "ruff",
+          "githubCommit": "0be08a206f9c3180afd3e93bcc792ed5cb1f4db1",
+          "githubTag": "0.16.9",
+          "githubUrl": "https://github.com/astral-sh/ruff",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "psutil",
+          "ecosystem": "PYPI",
+          "version": "7.2.2",
+          "githubOrg": "giampaolo",
+          "githubRepo": "psutil",
+          "githubCommit": "9eea97dd6f1d16ea33f5144c8925f1ce7a0688e1",
+          "githubTag": "v7.2.2",
+          "githubUrl": "https://github.com/giampaolo/psutil",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/psutil/__init__.py"
+        }
       ]
     }
   ],
